@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+   </head>
+   <body>
+     <h1>Pictures:</h1>
+     <label class="switch">
+       <input type="checkbox" onclick="toggleDarkMode()">
+       <span class="slider"></span>
+     </label>
+     <hr/>
+     <div class="grid-container">
+        <div class="grid-item">
+          <a href="index2.html"><img src="Desert 5.jpg"></a>
+          Pic 1
+        </div>
+        <div class="grid-item">
+          <a href=""><img src="Yosemite.jpg"></a>
+          Pic 2
+        </div>
+        <div class="grid-item">
+          <a href=""><img src="Chroma 1.jpg"></a>
+          Pic 3
+        </div>
+        <div class="grid-item">
+          <a href=""><img src="Chroma 2.jpg"></a>
+          Pic 4
+        </div>
+        <div class="grid-item">
+          <a href=""><img src="cc188c604e58cffd36e1d183c7198d21.jpg"></a>
+          Pic 5
+        </div>
+        <div class="grid-item">
+          <a href=""><img src="images-1.jpg"></a>
+          Pic 6
+        </div>
+        <div class="grid-item">
+          <a href=""><img src="images-2.jpg"></a>
+          Pic 7
+        </div>
+        <div class="grid-item">
+          <a href=""><img src="images-3.jpg"></a>
+          Pic 8
+        </div>
+        <div class="grid-item">
+          <a href=""><img src="images.jpg"></a>
+          Pic 9
+        </div>
+     </div>
+     <script>
+      function toggleDarkMode() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+  </body>
+ </html>

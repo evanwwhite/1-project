@@ -1,0 +1,28 @@
+body{
+background-color:white;
+}
+h1{
+  color:black;
+padding-left: 40px;
+  font-size: 30px;
+  border-bottom: 1px solid black;
+}
+img{
+  width: 20%;
+}
+.main-section{
+  display:flex;
+  justify-content: center;
+  padding-top: 5%;
+
+}
+.sub-section{
+  display: flex;
+  padding-left: 25%;
+
+}
+.boomer-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
